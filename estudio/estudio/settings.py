@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Individual_3.urls'
+ROOT_URLCONF = 'estudio.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Individual_3.wsgi.application'
+WSGI_APPLICATION = 'estudio.wsgi.application'
 
 
 # Database

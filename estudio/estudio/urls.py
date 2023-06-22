@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from principal.views import base, lista_usuarios
+from principal.views import base, lista_usuarios, crear_usuario
+
 
 urlpatterns = [
     path('', base, name='base'),  # Ruta para la página base.html (página principal)
     path('usuarios/', lista_usuarios, name='lista_usuarios'),  # Ruta para la página lista_usuarios.html
     path('admin/', admin.site.urls),
+    path('crear-usuario/', crear_usuario, name='crear_usuario') 
 ]
 

@@ -1,7 +1,7 @@
 {% extends 'principal/base.html' %}
 
 {% block content %}
-<div class="container py-4">
+<div class="container py-4 table-users">
     <h2>Crear Usuario</h2>
     <form method="POST" action="{% url 'crear_usuario' %}">
         {% csrf_token %}
@@ -20,4 +20,5 @@
         <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
 </div>
+
 {% endblock %}
