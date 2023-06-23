@@ -5,12 +5,23 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
+/*imagen de fondo*/
 body {
     background-image: url("/static/principal/img/fondo2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*configuracion de logo y titulo*/
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /*configuarion de tabla de usuarios */
 .table-users {
     background-color: rgba(255, 255, 255, 0.8); /* Color de fondo claro semitransparente */

@@ -6,12 +6,16 @@
     <title>Mi Página Principal</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'principal/css/styles.css' %}">
+    <link rel="icon" href="{% static 'principal/img/logo.png' %}">
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
         <div class="container">
-            <a class="navbar-brand" href="/">Mi Página</a>
+            <a class="navbar-brand" href="/">
+                <img src="{% static 'principal/img/logo1.png' %}" alt="Logo" width="75" height="50">
+                ClickArte
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -75,7 +79,7 @@
 
     <footer class="footer bg-light py-3 custom-footer">
         <div class="container text-center">
-            <p class="text-muted">&copy; 2023 Ejemplo.com. Todos los derechos reservados.</p>
+            <p class="text-muted">&copy; 2023 clickarte.com. Todos los derechos reservados.</p>
         </div>
     </footer>
     
